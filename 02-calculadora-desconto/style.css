@@ -112,7 +112,6 @@ button:hover {
 .resultado.desconto1 {
   border: 2px solid #14532d;
   box-shadow: 0 0 16px #14532d;
-
 }
 
 .resultado.desconto2 {
@@ -120,7 +119,7 @@ button:hover {
   box-shadow: 0 0 16px #7f3d1d;
 }
 
-.resultado.desconto {
+.resultado.desconto3 {
   border: 2px solid #7f1d1d;
   box-shadow: 0 0 16px  #7f1d1d;
 }
