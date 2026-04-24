@@ -1,9 +1,8 @@
 'use strict' //mostra alguns erros
 
 function removerClasses() {
-    const resultado = document.getElementById('resultado')
+    const resultado = document.getElementById('resultado') //recebe algo 
     resultado.classList.remove('apto', 'nao-apto')
-
 }
 
 function avaliar() {
@@ -11,6 +10,7 @@ function avaliar() {
     const resultado = document.getElementById('resultado')
 
     removerClasses()
+    
     if (tempo.value < 14) {
         resultado.textContent = 'Apto'
         //console.log('Apto') // sempre fazer como teste
